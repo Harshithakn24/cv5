@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+
+        text-align: center;
+        background-color :#7FC7D9;
+    }
+
+.cloud1{
+    position: relative;
+    height: 80px;
+    width: 120px;
+    margin-right: 60px;
+    margin-top: 100px;
+  }
+
+.cloud2{
+    height: 80px;
+    width: 120px;
+    margin-left: 900px;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+.mount{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 0%;
+}
+.middle-container{
+    margin-top: -200;
+}
+h1{
+ margin-top: 10%;
+ margin-bottom: 0;
+ color:#0F1035;
+ font-size: 350%;
+ font-family: 'Mukta', sans-serif;
+
+}
+.h2{
+  text-align: center;
+  margin-top: 40;
+color: #04333f;
+font-family:'montserrat',cursive ;
+font-size: 200%;
+
+}
+.profile{
+    margin-top: 250px;
+    margin-left: 200;
+}
+.skills{
+    margin-top: 150;
+    margin-left: 900;
+}
+.skill2{
+    margin-top: 100;
+    margin-left: 230;
+}
+.txt{
+    margin-left: 300;
+    margin-top: -200;
+    text-size-adjust: 50%;
+}
+.txt2{
+    margin-left: 570;
+    margin-top: -200;
+}
+.txt3{
+    margin-left: 540;
+    margin-top: -200;
+}
+.contact-me{
+    margin-top: 50;
+}
+.cloud1,.cloud2{
+    position: absolute;
+    top: 50px; /* Adjust the top value as needed */
+    animation: floatClouds linear infinite 5s;
+}
+@keyframes floatClouds {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0);}
+}
